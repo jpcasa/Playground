@@ -1,0 +1,67 @@
+/*
+ * Simple utility first classes
+ * Made by JP Casabianca
+*/
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.full-row {
+  width: 100%;
+  position: relative;
+}
+
+.cont90 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.show {
+  display: inline-block!important;
+}
+
+.hide {
+  display: none!important;
+}
+
+// ANIMATIONS
+@keyframes toggleVisbility  {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-o-keyframes toggleVisbility {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-moz-keyframes toggleVisbility {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes toggleVisbility {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+.toggleVisbility {
+   -webkit-animation: toggleVisbility 2.2s infinite;
+   -moz-animation: toggleVisbility 2.2s infinite;
+   -o-animation: toggleVisbility 2.2s infinite;
+    animation: toggleVisbility 2.2s infinite;
+}

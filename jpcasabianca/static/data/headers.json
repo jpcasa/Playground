@@ -1,0 +1,184 @@
+{
+  "mainMenu": [
+    {
+      "title": "About Me",
+      "url": "/",
+      "status": "active",
+      "action": "push",
+      "subMenu": [
+        {
+          "title": "Short Bio",
+          "url": "short-bio",
+          "action": "scrollTo"
+        },
+        {
+          "title": "Skills",
+          "url": "skills",
+          "action": "scrollTo"
+        },
+        {
+          "title": "Programs",
+          "url": "programs",
+          "action": "scrollTo"
+        },
+        {
+          "title": "Education",
+          "url": "education",
+          "action": "scrollTo"
+        }
+      ]
+    },
+    {
+      "title": "My Process",
+      "url": "/my-process",
+      "status": "",
+      "action": "push",
+      "subMenu": [
+        {
+          "title": "1). Insights",
+          "url": "section-insights",
+          "action": "scrollTo"
+        },
+        {
+          "title": "2). Design Thinking",
+          "url": "section-algo",
+          "action": "scrollTo"
+        },
+        {
+          "title": "3). Scrum",
+          "url": "section-scrum",
+          "action": "scrollTo"
+        },
+        {
+          "title": "4). Testing",
+          "url": "section-testing",
+          "action": "scrollTo"
+        },
+        {
+          "title": "5). Marketing Research",
+          "url": "section-marketing-research",
+          "action": "scrollTo"
+        },
+        {
+          "title": "6). Inbound Marketing",
+          "url": "section-inbound-marketing",
+          "action": "scrollTo"
+        },
+        {
+          "title": "7). Analytics",
+          "url": "section-analytics",
+          "action": "scrollTo"
+        },
+        {
+          "title": "8). Optimization",
+          "url": "section-optimization",
+          "action": "scrollTo"
+        },
+        {
+          "title": "9). Leads & CRM",
+          "url": "section-leads-crm",
+          "action": "scrollTo"
+        },
+        {
+          "title": "10). Lift-Off",
+          "url": "section-lift-off",
+          "action": "scrollTo"
+        }
+      ]
+    },
+    {
+      "title": "Case Studies",
+      "url": "/case-studies",
+      "status": "",
+      "action": "push",
+      "subMenu": []
+    },
+    {
+      "title": "Blog",
+      "url": "/blog",
+      "status": "",
+      "action": "push",
+      "subMenu": [
+        {
+          "title": "Everything",
+          "url": "/blog/everything/",
+          "action": "push"
+        },
+        {
+          "title": "Design & Art",
+          "url": "/blog/design-art/",
+          "action": "push"
+        },
+        {
+          "title": "Technology",
+          "url": "/blog/technology/",
+          "action": "push"
+        },
+        {
+          "title": "Marketing & Sales",
+          "url": "/blog/marketing-sales/",
+          "action": "push"
+        },
+        {
+          "title": "Business & Finance",
+          "url": "/blog/business-finance/",
+          "action": "push"
+        },
+        {
+          "title": "Entrepreneurship",
+          "url": "/blog/entrepreneurship/",
+          "action": "push"
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "url": "/contact",
+      "status": "",
+      "action": "push",
+      "subMenu": []
+    }
+  ],
+  "secondaryMenu": [
+    {
+      "title": "Important Stuff",
+      "links": [
+        {
+          "title": "Resume",
+          "url": "http://jpcasabianca.com"
+        }
+      ]
+    },
+    {
+      "title": "Email",
+      "links": [
+        {
+          "title": "hola@jpcasabianca.com",
+          "url": "mailto:hola@jpcasabianca.com"
+        }
+      ]
+    },
+    {
+      "title": "Phone",
+      "links": [
+        {
+          "title": "+57 350 701 5800",
+          "url": "tel:+573507015800"
+        }
+      ]
+    },
+    {
+      "title": "Find me on",
+      "links": [
+        {
+          "title": "Linkedin",
+          "url": "https://www.linkedin.com/in/juan-pablo-casabianca/"
+        },
+        {
+          "title": "Medium",
+          "url": "https://medium.com/@jpc_774"
+        }
+      ]
+    }
+  ]
+}

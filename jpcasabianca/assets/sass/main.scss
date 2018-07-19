@@ -1,0 +1,34 @@
+/*
+ * Global Styles
+ * Made by JP Casabianca
+*/
+
+/*
+  Import Base, Components, Helpers and Layout SASS Files
+*/
+
+// BASE
+@import "base/reset";
+
+// HELPERS
+@import "helpers/mixins";
+@import "helpers/variables";
+
+// LAYOUT
+@import "layout/flexboxgrid";
+
+/*
+  Utility First Classes
+*/
+@import "helpers/utilityFirst";
+
+/*
+  Global Styles
+*/
+body {
+  font-family: 'MarkPro', helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

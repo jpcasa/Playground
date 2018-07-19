@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Wacom</title>
+    <link rel="icon" type="images/x-icon" href="http://contentz.mkt5510.com/lp/14182/86001/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://contentz.mkt5510.com/lp/14182/95764/form_1.css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>
+
+
+
+
+			$(document).ready(function () {
+
+				$.urlParam = function(name) {
+					var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+					if (results==null){
+						 return null;
+					}
+					else {
+						 return decodeURI(results[1]) || 0;
+					}
+				}
+
+				var csd = $.urlParam('csd');
+
+				console.log(csd);
+
+				///////////////////////////////////////////
+				////     DATA LATER
+				///////////////////////////////////////////
+
+				window.dataLayer = window.dataLayer || [];
+				window.dataLayer.push({
+					'event': 'dataLayer-initialized',
+					'userDetails': {
+						'loggedInStatus': 'false',
+						'wacomID': String(undefined),
+						'customerPersona': '<customer persona>'
+					},
+					'pageDetails': {
+						'siteLanguage': 'english',
+						'siteCountry': 'United States',
+						'pageCategory': '<business unit>',
+						'propertyName': '<property name>',
+						'pageError': '<page error type>',
+						'dataLayerDate': '<month year>'
+					}
+				});
+				window.dataLayer.push({
+					'event': 'form-impression',
+					//'formName': 'WTC-USA-PM-356201-Ongoing-PaidSocial-LG-Corporate-B2B-5-Things-LP',
+					'formName': this.csd,
+					'formLocation': 'on page'
+				});
+			});
+
+      
+
+		</script>
+
+			<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-MDHL');</script>
+		<!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <section id="modal-form">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-7 col-lg-8">
+            <div class="wrapper intro-bg lb-col">
+              <div class="intro-container">
+                <div class="wrapper">
+                  <h3 class="resource-title"></h3>
+                  <p class="resource-subtitle"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5 col-lg-4">
+            <div class="form-container lb-col">
+              <form method="post" id="form-download">
+                <h2 class="form-title"></h2>
+                <div>
+                  <input type="text" placeholder="First Name" name="First Name" id="control_COLUMN17" class="textInput defaultText" required>
+                </div>
+                <div>
+                  <input type="text" placeholder="Last Name" name="Last Name" id="control_COLUMN25" class="textInput defaultText" required>
+                </div>
+                <div>
+                  <input type="text" placeholder="Email" name="Email" id="control_EMAIL" class="textInput defaultText" required>
+                </div>
+                <div>
+                  <input type="text" placeholder="Phone Number" name="Telephone Number" id="control_COLUMN74" class="textInput defaultText" required>
+                </div>
+                <div>
+                  <input type="text" placeholder="Institution, Organization or Company" name="Company" id="control_COLUMN7" class="textInput defaultText prefill1" required>
+                </div>
+                <div class="select-button styled-select">
+                  <input type="text" name="Job Title" id="control_COLUMN21" value="" style="display: none;" class="jobtitle2">
+                  <select name="dropDown[1]" class="selectInput defaultText" id="selectTitle" required onChange="jobTitle2()">
+                    <option value="" selected>What is your role in education?</option>
+                    <option value="Provost, President, Dean or Principal">Provost, President, Dean or Principal</option>
+                    <option value="Department Chair or Head of Department">Department Chair or Head of Department</option>
+                    <option value="Professor, Adjunct Professor, TA, Instructor or Teache">Professor, Adjunct Professor, TA, Instructor or Teache</option>
+                    <option value="IT">IT</option>
+                    <option value="Student">Student</option>
+                  </select>
+                </div>
+                <div class="select-button styled-select">
+                  <select name="Creative_B2B_Interested_in_Products_for" id="control_COLUMN129" class="selectInput defaultText" required>
+                    <option value="" selected>I'm interested in Wacom products for:</option>
+                    <option value="Classroom">Classroom</option>
+                    <option value="Lab">Lab</option>
+                    <option value="Whole campus">Whole campus</option>
+                    <option value="Personal use">Personal use</option>
+                  </select>
+                </div>
+                <div class="submitButton">
+                  <input type="submit" class="defaultText buttonStyle hover" value="Download Brief">
+                </div>
+                <input type="hidden" name="Country" id="control_COLUMN12" value="UNITED STATES"/>
+                <input type="hidden" name="Category" id="control_COLUMN5" value="B2B - Creative"/>
+                <input type="hidden" name="Language" id="control_COLUMN22" value="English"/>
+                <input type="hidden" name="CRM_Sync_Type" id="control_COLUMN114" value="SPOP Lead"/>
+                <input type="hidden" name="Wacom Regional Abbreviation" id="control_COLUMN84" value="WTC"/>
+                <input type="hidden" name="Contact Source" id="control_COLUMN9" value="Website"/>
+                <input type="hidden" name="Contact Source Detail" id="control_COLUMN10" value=""/>
+                <input type="hidden" name="formSourceName" value="StandardForm">
+                <input type="hidden" name="sp_exp" value="yes">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/additional-methods.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-placeholder/2.3.1/jquery.placeholder.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.2/awesomplete.min.js"></script>
+    <script type="text/javascript" src="http://contentz.mkt5510.com/lp/14182/95764/education-hub_3.js"></script>
+    <script>
+      ///////////////////////////////////////////////////////////////////////
+      // Form Validation
+      ///////////////////////////////////////////////////////////////////////
+      $(document).ready(function () {
+        "use strict";
+        $('form').validate({
+          rules: {
+            "Email": {
+              required: true,
+              email: true
+            },
+            "Telephone Number": {
+              required: true,
+              phoneUS: true
+            }
+          }
+        });
+      });
+
+			////////////////////////////////////////////////////////////
+			// MATCH HEIGHTS
+			////////////////////////////////////////////////////////////
+				$(document).ready(function () {
+					"use strict";
+					updateHeights();
+					$(window).resize(function() {
+						updateHeights();
+					});
+				});
+
+				function updateHeights() {
+  				"use strict";
+					if ($(window).innerWidth() >= 768 ) {
+						$('#modal-form .lb-col').matchHeight({
+							target: $("#modal-form")
+						});
+					} else {
+						$('#modal-form .lb-col').matchHeight('remove');
+					}
+				}
+
+			////////////////////////////////////////////////////////////
+			// GET URL PARAMS
+			////////////////////////////////////////////////////////////
+			$(document).ready(function () {
+				$.urlParam = function(name) {
+					var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+					if (results==null){
+						 return null;
+					}
+					else {
+						 return decodeURI(results[1]) || 0;
+					}
+				}
+
+
+				$('#modal-form').find('form').attr("action", $.urlParam('action'));
+				$('#modal-form').find('form').attr("pageId", $.urlParam('pageId'));
+				$('#modal-form').find('form').attr("siteId", $.urlParam('siteId'));
+				$('#modal-form').find('form').attr("parentPageId", $.urlParam('parentPageId'));
+				$('#modal-form').find('.form-title').text($.urlParam('formtitle'));
+				$('#modal-form').find('.resource-title').text($.urlParam('resourcetitle'));
+				$('#modal-form').find('.resource-subtitle').text($.urlParam('resourcesubtitle'));
+				$('#modal-form').find('.intro-bg').addClass($.urlParam('introbg'));
+				$('#modal-form').find('.submitButton input').prop('value', $.urlParam('cta'));
+				$('#modal-form').find('#control_COLUMN10').val($.urlParam('csd'));
+
+			});
+
+    </script>
+  </body>
+</html>

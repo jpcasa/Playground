@@ -1,0 +1,30 @@
+{
+  "name": "jpcasabianca.com",
+  "version": "1.0.0",
+  "description": "Nuxt.js Version of jpcasabianca.com",
+  "author": "Juan Pablo Casabianca <hola@jpcasabianca.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "buttercms": "^1.1.1",
+    "flexboxgrid": "^6.3.1",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0"
+  }
+}

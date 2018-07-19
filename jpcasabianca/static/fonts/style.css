@@ -1,0 +1,121 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'MarkPro';
+    src: url('MarkPro.woff2') format('woff2'),
+        url('MarkPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarkPro-Italic';
+    src: url('MarkPro-Italic.woff2') format('woff2'),
+        url('MarkPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MarkPro-MediumItalic';
+    src: url('MarkPro-MediumItalic.woff2') format('woff2'),
+        url('MarkPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MarkPro-LightItalic';
+    src: url('MarkPro-LightItalic.woff2') format('woff2'),
+        url('MarkPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MarkPro-Light';
+    src: url('MarkPro-Light.woff2') format('woff2'),
+        url('MarkPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarkPro-BookItalic';
+    src: url('MarkPro-BookItalic.woff2') format('woff2'),
+        url('MarkPro-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MarkPro-Bold';
+    src: url('MarkPro-Bold.woff2') format('woff2'),
+        url('MarkPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarkPro-Medium';
+    src: url('MarkPro-Medium.woff2') format('woff2'),
+        url('MarkPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarkPro-Book';
+    src: url('MarkPro-Book.woff2') format('woff2'),
+        url('MarkPro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarkPro-BoldItalic';
+    src: url('MarkPro-BoldItalic.woff2') format('woff2'),
+        url('MarkPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+.markpro-light {
+  font-family: 'MarkPro-Light', helvetica, sans-serif!important;
+}
+
+.markpro-light-italic {
+  font-family: 'MarkPro-LightItalic', helvetica, sans-serif;
+}
+
+.markpro {
+  font-family: 'MarkPro', helvetica, sans-serif;
+}
+
+.markpro-italic {
+  font-family: 'MarkPro-Italic', helvetica, sans-serif;
+}
+
+.markpro-book {
+  font-family: 'MarkPro-Book', helvetica, sans-serif;
+}
+
+.markpro-book-italic {
+  font-family: 'MarkPro-BookItalic', helvetica, sans-serif;
+}
+
+.markpro-medium {
+  font-family: 'MarkPro-Medium', helvetica, sans-serif;
+}
+
+.markpro-medium-italic {
+  font-family: 'MarkPro-MediumItalic', helvetica, sans-serif;
+}
+
+.markpro-bold {
+  font-family: 'MarkPro-Bold', helvetica, sans-serif;
+}
+
+.markpro-bold-italic {
+  font-family: 'MarkPro-BoldItalic', helvetica, sans-serif;
+}
